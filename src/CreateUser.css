@@ -1,0 +1,32 @@
+.create-user-form {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 5% auto;
+	flex-direction: column;
+	width: 50%;
+	background: lightcoral;
+	padding: 4%;
+	height: 300px;
+}
+
+.create-user-form input {
+	padding: 3%;
+	font-size: 1.2rem;
+}
+
+.create-user-form button {
+	padding: 2%;
+	background-color: chocolate;
+	color: white;
+	font-size: 1.2rem;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	transition: all 1s ease;
+}
+
+.create-user-form button:hover {
+	color: chocolate;
+	background-color: white;
+	transform: scale(1.05);
+}

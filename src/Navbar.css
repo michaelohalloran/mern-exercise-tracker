@@ -1,0 +1,29 @@
+.nav-container {
+	display: flex;
+	justify-content: flex-end;
+	background-color: lightsalmon;
+	height: 6vh;
+	align-items: center;
+}
+
+.nav-container :nth-child(1) {
+	margin-right: auto;
+}
+
+.nav-container a {
+	text-decoration: none;
+	color: white;
+	transition: all 0.4s ease;
+	cursor: pointer;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	width: 14%;
+	justify-content: center;
+}
+
+.nav-container a:hover {
+	background-color: white;
+	color: salmon;
+	transform: scale(1.05);
+}
